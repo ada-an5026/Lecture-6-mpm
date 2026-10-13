@@ -1,6 +1,7 @@
 import numpy as np
 
-## Q4 note --> Smoothing adds +1 to all the unique tokens/characters in the bigram
+## Q6 note --> Smoothing adds +1 to all the unique tokens/characters in the bigram
+## Q8 note --> The pairs are merged from most frequent token to least. Hence byte 256 will have the most freq token and then the next most freq
 
 def softmax(z):
     '''Numerically stable softmax along the last axis.'''
